@@ -1,0 +1,60 @@
+.recommended {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include onDesktop {
+      flex-direction: row;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin: 0 0 40px 0;
+    }
+    @include onDesktop {
+      &:not(:last-child) {
+        margin: 0 24px 0 0;
+      }
+    }
+  }
+
+  &__item {
+    color: #292929;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+
+  &__photo {
+    display: block;
+    margin: 0 0 32px 0;
+    height: 280px;
+    width: 280px;
+
+    @include onTablet {
+      width: 392px;
+      height: 392px;
+    }
+
+    @include onDesktop {
+      width: 324px;
+      height: 324px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 8px 0;
+  }
+
+  &__name-product {
+    margin: 0 0 12px 0;
+    font-weight: 400;
+  }
+}

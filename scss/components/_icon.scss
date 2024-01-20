@@ -3,12 +3,50 @@
   height: 24px;
   width: 24px;
 
+  
+
+  @include onTablet {
+    height: 32px;
+    width: 32px;
+  }
+
   &--phone {
+    position: relative;
     background-image: url(/src/images/svg/icon-phone.svg);
+
+    &::before {
+      content: "+1 234 555-55-55";
+      position: absolute;
+      top: 50%;
+      transform: translate(-100%, -50%);
+
+      padding: 0 16px 0 0;
+      display: block;
+      width: max-content;
+
+      color: #292929;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 2px;
+
+      pointer-events: none;
+      opacity: 0;
+    }
+    @include onDesktop {
+      &:hover::before {
+        pointer-events: all;
+        opacity: 1;
+      }
+    }
   }
 
   &--burger {
     background-image: url(/src/images/svg/icon-burger.svg);
+
+    &:hover {
+      background-image: url(/src/images/svg/icon-burger-hover.svg);
+    }
   }
 
   &--cross {
