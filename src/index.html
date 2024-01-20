@@ -5,57 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bose</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../css/main.min.css" />
     <script src="../scripts/main.js" defer></script>
   </head>
 
   <body class="page__body">
     <header class="header">
-      <div class="header__top">
-          <a href="#" class="logo">
-            <img src="./images/logo/logo.png" alt="Bose logo">
-          </a>
-<div class="header__container-icons">
-  <a href="#" class="icon icon--phone"></a>
-  <a href="#" class="icon icon--burger"></a>
-</div>
+      <div class="top-bar">
+        <a href="#" class="logo top-bar__logo">
+          <img src="./images/logo/logo.png" alt="Bose logo" />
+        </a>
+        <div class="header__container-icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--burger"></a>
+        </div>
       </div>
 
-      <div class="header__bottom">
-        <div class="header__waves"></div>
-        <h1 class="header__title">The world shades. 
-          <br> 
-          Your music shines.
-        </h1>
+      <div class="header__content">
+        <div class="header__bottom">
+          <div class="header__waves"></div>
+          <h1 class="header__title">
+            The world shades.
+            <br />
+            Your music shines.
+          </h1>
+        </div>
       </div>
-
     </header>
 
-     <aside class="menu">
+    <aside class="menu page__menu" id="menu">
+      <div class="top-bar menu__top">
+        <a href="#" class="logo top-bar__logo">
+          <img src="./images/logo/logo.png" alt="Bose logo" />
+        </a>
+        <a href="#" class="icon icon--cross"></a>
+      </div>
 
-     </aside>
+      <div class="menu__content">
+        <nav class="nav menu__nav">
+          <ul class="nav__list list">
+            <li class="nav__item"><a href="#" class="nav__link"> Home </a></li>
+            <li class="nav__item">
+              <a href="#recommended" class="nav__link"> recommended </a>
+            </li>
+            <li class="nav__item">
+              <a href="#categories" class="nav__link"> categories </a>
+            </li>
+            <li class="nav__item">
+              <a href="#how-to-buy" class="nav__link"> How to buy </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link"> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="tel:+1 234 5555-55-55" class="menu__phone-number">
+          +1 234 5555-55-55
+        </a>
+
+        <a href="tel:+1 234 5555-55-55" class="menu__call-to-order">
+          call to order
+        </a>
+      </div>
+    </aside>
 
     <main class="page__main">
-<section class="section recommended">
-
-</section>
-<section class="section categories">
-
-</section>
-<section class="section how-to-buy">
-
-</section>
-<section class="section contacts">
-
-</section>
+      <section class="section recommended"></section>
+      <section class="section categories"></section>
+      <section class="section how-to-buy"></section>
+      <section class="section contacts"></section>
     </main>
-    <footer class="footer">
-
-    </footer>
+    <footer class="footer"></footer>
   </body>
-
 </html>

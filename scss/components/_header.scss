@@ -1,5 +1,4 @@
 .header {
-  padding: 24px 20px 40px 20px;
   background-image: url(/src/images/main-images/image-header.jpg);
   height: 100vh;
   background-size: cover;
@@ -9,10 +8,8 @@
   flex-direction: column;
   justify-content: space-between;
 
-  &__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  &__content {
+    padding: 0 20px 40px 20px;
   }
 
   &__container-icons {

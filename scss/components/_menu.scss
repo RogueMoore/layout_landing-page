@@ -1,0 +1,42 @@
+.menu {
+  height: 100vh;
+  background-color: #e8eff9;
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &__content {
+    padding: 0 20px 40px 20px;
+  }
+
+  &__top {
+    margin-bottom: 32px;
+  }
+
+  &__nav {
+    margin: 0 0 40px 0;
+  }
+
+  &__call-to-order {
+    padding: 0 0 7px 0;
+    display: block;
+    width: fit-content;
+    color: inherit;
+
+    font-size: 16px;
+    line-height: 27px;
+
+    border-bottom: 1px solid #292929;
+  }
+
+  &__phone-number {
+    margin: 0 0 16px 0;
+    display: block;
+    width: fit-content;
+    color: inherit;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+  }
+}
