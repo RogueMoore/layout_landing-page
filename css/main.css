@@ -1,4 +1,72 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+.icon--phone {
+  background-image: url(/src/images/svg/icon-phone.svg);
+}
+.icon--burger {
+  background-image: url(/src/images/svg/icon-burger.svg);
+}
+.page {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header {
+  padding: 24px 20px 40px 20px;
+  background-image: url(/src/images/main-images/image-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__container-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.header__waves {
+  margin: 0 0 16px 0;
+  height: 57px;
+  width: 48px;
+  background-image: url(/src/images/svg/sound-waves.svg);
+}
+.header__title {
+  color: #292929;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: -1.5px;
 }/*# sourceMappingURL=main.css.map */
