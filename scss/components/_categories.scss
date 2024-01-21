@@ -36,10 +36,9 @@
   &__text {
     margin: 0 0 40px 0;
 
-    color: #292929;
-    font-size: 16px;
+
     font-weight: 700;
-    line-height: 140%;
+
 
     @include onTablet {
       margin: 0 0 64px 0;
