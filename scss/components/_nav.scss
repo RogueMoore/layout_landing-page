@@ -10,5 +10,14 @@
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 2px;
+
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8eff9;
+
+    transition: all 0.3s;
+
+    &:hover {
+      border-bottom: 1px solid #292929;
+    }
   }
 }

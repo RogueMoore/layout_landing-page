@@ -1271,6 +1271,13 @@ a {
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 2px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e8eff9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.nav__link:hover {
+  border-bottom: 1px solid #292929;
 }
 
 .section {
@@ -1448,6 +1455,7 @@ a {
 .how-to-buy__title {
   width: 280px;
   text-align: left;
+  margin: 0 0 32px 0;
 }
 @media (min-width: 744px) {
   .how-to-buy__title {
@@ -1530,6 +1538,7 @@ a {
   border: 1px solid #292929;
 }
 .contacts__message {
+  font-family: inherit;
   margin-bottom: 32px;
   resize: none;
   height: 120px;
