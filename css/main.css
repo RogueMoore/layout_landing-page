@@ -1487,26 +1487,36 @@ a {
   color: #7e7e83;
   font-size: 14px;
   line-height: 20px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 .contacts__input::-moz-placeholder {
   color: #7e7e83;
   font-size: 14px;
   line-height: 20px;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
 }
 .contacts__input:-ms-input-placeholder {
   color: #7e7e83;
   font-size: 14px;
   line-height: 20px;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
 }
 .contacts__input::-ms-input-placeholder {
   color: #7e7e83;
   font-size: 14px;
   line-height: 20px;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
 }
 .contacts__input::placeholder {
   color: #7e7e83;
   font-size: 14px;
   line-height: 20px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 .contacts__input:hover::-webkit-input-placeholder, .contacts__input:focus::-webkit-input-placeholder {
   color: #292929;
