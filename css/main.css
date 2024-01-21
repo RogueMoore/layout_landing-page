@@ -1461,6 +1461,98 @@ a {
   }
 }
 
+.contacts__input {
+  display: block;
+  padding: 14px 16px 14px 16px;
+  border-radius: 40px;
+  border: 1px solid #f8f8fa;
+  background: #f8f8fa;
+  margin-bottom: 16px;
+  width: 100%;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+@media (min-width: 744px) {
+  .contacts__input {
+    max-width: 288px;
+  }
+}
+@media (min-width: 1260px) {
+  .contacts__input {
+    max-width: 411px;
+  }
+}
+.contacts__input::-webkit-input-placeholder {
+  color: #7e7e83;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts__input::-moz-placeholder {
+  color: #7e7e83;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts__input:-ms-input-placeholder {
+  color: #7e7e83;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts__input::-ms-input-placeholder {
+  color: #7e7e83;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts__input::placeholder {
+  color: #7e7e83;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts__input:hover::-webkit-input-placeholder, .contacts__input:focus::-webkit-input-placeholder {
+  color: #292929;
+}
+.contacts__input:hover::-moz-placeholder, .contacts__input:focus::-moz-placeholder {
+  color: #292929;
+}
+.contacts__input:hover:-ms-input-placeholder, .contacts__input:focus:-ms-input-placeholder {
+  color: #292929;
+}
+.contacts__input:hover::-ms-input-placeholder, .contacts__input:focus::-ms-input-placeholder {
+  color: #292929;
+}
+.contacts__input:hover::placeholder, .contacts__input:focus::placeholder {
+  color: #292929;
+}
+.contacts__input:hover {
+  border: 1px solid #d5d7de;
+}
+.contacts__input:focus {
+  border: 1px solid #292929;
+}
+.contacts__message {
+  margin-bottom: 32px;
+  resize: none;
+  height: 120px;
+}
+.contacts__text {
+  margin: 0 0 8px 0;
+  color: #9fadc2;
+  font-size: 14px;
+  line-height: 140%;
+}
+.contacts__address-link {
+  display: block;
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 140%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contacts__address-link:not(:last-of-type) {
+  margin: 0 0 24px 0;
+}
+
 .footer {
   height: 200px;
   width: 100%;
@@ -1516,5 +1608,14 @@ a {
 @media (min-width: 1260px) {
   .button-primary {
     width: 228px;
+  }
+}
+.button-contacts {
+  margin: 0;
+}
+@media (min-width: 1260px) {
+  .button-contacts {
+    width: 100%;
+    max-width: 411px;
   }
 }/*# sourceMappingURL=main.css.map */

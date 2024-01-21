@@ -39,4 +39,12 @@
       width: 228px;
     }
   }
+  &-contacts {
+    margin: 0;
+
+    @include onDesktop {
+      width: 100%;
+      max-width: 411px;
+    }
+  }
 }

@@ -1,0 +1,73 @@
+.contacts {
+  &__input {
+    display: block;
+    padding: 14px 16px 14px 16px;
+
+    border-radius: 40px;
+    border: 1px solid #f8f8fa;
+
+    background: #f8f8fa;
+
+    margin-bottom: 16px;
+
+    width: 100%;
+
+    outline: none;
+
+    @include onTablet {
+      max-width: 288px;
+    }
+    @include onDesktop {
+      max-width: 411px;
+    }
+
+    transition: all 0.3s;
+
+    &::placeholder {
+      color: #7e7e83;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &:hover::placeholder,
+    &:focus::placeholder {
+      color: #292929;
+    }
+
+    &:hover {
+      border: 1px solid #d5d7de;
+    }
+
+    &:focus {
+      border: 1px solid #292929;
+    }
+  }
+
+  &__message {
+    margin-bottom: 32px;
+    resize: none;
+
+    height: 120px;
+  }
+
+  &__text {
+    margin: 0 0 8px 0;
+
+    color: #9fadc2;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  &__address-link {
+    display: block;
+    color: #3e3e3e;
+    font-size: 16px;
+    line-height: 140%;
+
+    width: fit-content;
+
+    &:not(:last-of-type) {
+      margin: 0 0 24px 0;
+    }
+  }
+}
