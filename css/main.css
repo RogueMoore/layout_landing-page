@@ -38,7 +38,7 @@ a {
 .grid--mobile-off {
   display: block;
 }
-@media (min-width: 1260px) {
+@media (min-width: 744px) {
   .grid--mobile-off {
     display: grid;
   }
@@ -1428,6 +1428,54 @@ a {
 @media (min-width: 744px) {
   .categories__text {
     margin: 0 0 64px 0;
+  }
+}
+
+.how-to-buy__text {
+  color: #292929;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.how-to-buy--bold {
+  line-height: 140%;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.how-to-buy--bold:nth-last-of-type(2) {
+  margin-bottom: 40px;
+}
+.how-to-buy__title {
+  width: 280px;
+  text-align: left;
+}
+@media (min-width: 744px) {
+  .how-to-buy__title {
+    width: 287px;
+    margin: 0;
+  }
+}
+@media (min-width: 1260px) {
+  .how-to-buy__title {
+    width: 411px;
+  }
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-image: url(/src/images/main-images/image-footer.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+@media (min-width: 744px) {
+  .footer {
+    height: 400px;
+  }
+}
+@media (min-width: 1260px) {
+  .footer {
+    height: 510px;
   }
 }
 

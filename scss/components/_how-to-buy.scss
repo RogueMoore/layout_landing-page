@@ -1,0 +1,33 @@
+.how-to-buy {
+  &__text {
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  &--bold {
+    line-height: 140%;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+
+    &:nth-last-of-type(2) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__title {
+    width: 280px;
+    text-align:left;
+
+    @include onTablet {
+      width: 287px;
+      margin: 0;
+    }
+
+    @include onDesktop {
+      width: 411px;
+    }
+  }
+}
